@@ -1,0 +1,11 @@
+[api]
+port = 9000
+read-timeout-min = 120
+write-timeout-min = 120
+token-api-loteria = "bp4vUiRBmW1KOrl"
+
+[database]
+host = "localhost"
+user = "user_concurso"
+pass = "1122"
+name = "api_lotofacil"
