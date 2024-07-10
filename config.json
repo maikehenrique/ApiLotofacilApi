@@ -1,0 +1,17 @@
+{
+    "server": {
+      "production": false,
+      "hideBanner": true,
+      "port": 9000,
+      "allowedOrigins": ["*"]
+    },
+    "database": {
+      "host": "localhost",
+      "password": "postgres",
+      "user": "postgres",
+      "name": "apilotofacil_db",
+      "port": 5432,
+      "schema": "public",
+      "sslMode": "disable"
+    }
+  }
