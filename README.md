@@ -4,8 +4,8 @@
   <p align="left">
     Free API to track Lotofácil lottery results <a href="http://loterias.caixa.gov.br/wps/portal/loterias">Lotteries CAIXA</a>.<br>
     Developed as a way to improve and establish knowledge, it seeks to be a free, robust and open tool for those who want to carry out implementations like me.<br>
-    I use the API created to create a free statistics website and help those who play specifically in the Lotofácil lottery, I leave the link for those who want to access and test it : <a href="http://45.159.228.184:8080/">Sorte Lotofácil</a>.<br>
-    With time I will be improving both API and my statistics site.<br>
+    I use the API created to create a free statistics website and help those who play specifically in the Lotofácil lottery, I leave the link for those who want to access and test it : <a href="http://sortelotofacil.inovateweb.com.br/">Sorte Lotofácil</a>.<br>
+    With time I will be improving both API and my statistics site.<br> 
   </p>
 </p>
 
@@ -15,7 +15,7 @@ Currently, the database contains the lotofácil games but can be easily adapted 
 * **Latest Result**
 
 [GET]
-```http://45.159.228.184:8080/api/lotofacil/latest```
+```https://sortelotofacil.inovateweb.com.br/api/lotofacil/latest```
 
 Return Examples: 
 
@@ -131,9 +131,9 @@ Return Examples:
 * **Specific Result**
 
 [GET]
-```http://45.159.228.184:8080/api/lotofacil/<concurso>```
+```https://sortelotofacil.inovateweb.com.br/api/lotofacil/<concurso>```
 
-Lotofácil, contest 2642: http://45.159.228.184:8080/api/lotofacil/2642
+Lotofácil, contest 2642: https://sortelotofacil.inovateweb.com.br/api/lotofacil/2642
 
 ```json
 {
@@ -245,7 +245,7 @@ Lotofácil, contest 2642: http://45.159.228.184:8080/api/lotofacil/2642
 
 ## API Documentation
  
-**URL:* http://45.159.228.184:8080/api/lotofacil
+**URL:* https://sortelotofacil.inovateweb.com.br/api/lotofacil
 
 [GET]
   - /api/lotofacil            Returns all contests available for search
